@@ -1,0 +1,17 @@
+<div class="pull-right">
+    &COPY; <?php
+    // name of the site
+    $siteName    = "Nursing Essayz";
+    // year you launched the app
+    $launchYear  = 2017;
+    // track the current year
+    $currentYear = date("Y");
+
+    if ($currentYear == $launchYear) {
+        echo $launchYear . " " . $siteName;
+    } else {
+        echo $launchYear . " - " . $currentYear . " " . $siteName;
+    }
+    ?>  
+</div>
+<div class="clearfix"></div>
